@@ -1,0 +1,31 @@
+body {
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;        
+}
+
+h1 {
+    color: #1F283A;    
+    font-size: 25px;  
+}
+
+p {
+    color: #AFB2B7
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    height: 500px;
+    margin: 0 auto;    
+    padding: 1rem;
+    position: relative;
+    width: 25%;    
+}
+
+.qrcode {
+    border-radius: 10px;
+    height: 70%;
+    width: 100%;    
+}
