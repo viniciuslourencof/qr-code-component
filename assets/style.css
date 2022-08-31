@@ -1,6 +1,5 @@
 body {
-    background-color: #D5E1EF;            
-    font-size: 15px;        
+    background-color: #D5E1EF;                
 }
 
 h1 {
@@ -23,11 +22,12 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);        
     padding: 1rem;    
     position: absolute;        
-    word-wrap: break-word
+    word-wrap: break-word;
+    overflow: hidden;    
 }
 
 .card h1 {
-  font-size: 1.5rem;
+  font-size: 1.5rem;  
 }
 
 .card p {
