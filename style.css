@@ -24,14 +24,18 @@ p {
     position: absolute;        
     word-wrap: break-word;
     overflow: hidden;    
+    width: 20%;
+    height: 55%;
+    top: calc(50% - 27.5%);
+
 }
 
 .card h1 {
-  font-size: 1rem;  
+  font-size: 1.5rem;  
 }
 
 .card p {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .card h1, p {
@@ -41,11 +45,11 @@ p {
 
 .qrcode {
   border-radius: 10px;
-  height: 70%;
+  height: 60%;
   width: 100%;
 }
 
-@media screen and (min-width: 0) {
+/* @media screen and (min-width: 0) {
 
   .card {
     width: 80%;
@@ -61,5 +65,5 @@ p {
     height: 55%;
     top: calc(50% - 27.5%);
   }
-  
+   */
 }
